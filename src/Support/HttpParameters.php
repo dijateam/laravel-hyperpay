@@ -87,8 +87,8 @@ class HttpParameters
             'customer.givenName' => $user->name,
             'customer.surname' => $user->name,
             // 'customer.mobile' => '',
-            'customer.browser.userAgent' => $heyPerPayConfig['userAgent'],
-            'customer.browser.language' => config('app.locale'),
+            // 'customer.browser.userAgent' => $heyPerPayConfig['userAgent'],
+            // 'customer.browser.language' => config('app.locale'),
         ];
 
         return $body_parameters;
